@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+#command {
+    font-size: 1em;
+}
+#error {
+    color: red;
+}
+#message {
+    color: green;
+}
+#report {
+    color: blue;
+}
+
+#robotArea{
+ width: 250px;
+ height: 250px;
+ border:1px solid black;
+ background-image: url("images/grid.gif");
+ background-repeat: no-repeat;
+ background-size: 107% 106%;
+ background-position: -9px -9px;
+}
+
+img{
+	width:50px;
+	position: absolute;
+}
+

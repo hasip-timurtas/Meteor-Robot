@@ -1,0 +1,43 @@
+<head>
+  <title>Meteor-Robot</title>
+</head>
+
+<body>
+	<div id="robotArea">
+		<img src="images/robot.jpg">
+	</div>
+	
+	<h1>Meteor Robot Application</h1>
+  	{{> homePage}}
+</body>
+
+<template name="homePage">
+	<label>write a command and press enter.</label>
+	<br>
+	<div> 
+		<strong>Command: </strong>
+	    <input type="text" id="command"> 
+	    <span id="error"></span><span id="message"></span>
+	</div>
+	<br>
+	<div> 
+		<strong>
+			Report: 
+			<span id="report"></span>
+		</strong> 
+	</div>
+	<br>
+	<h2> Commands </h2>
+	<ul>
+		<li> PLACE X,Y,F  ==> (e.g. PLACE 0,1,NORTH)</li>
+		<li> MOVE </li>
+		<li> LEFT </li>
+		<li> RIGHT </li>
+		<li> REPORT </li>
+	</ul>
+
+
+
+
+</template>
+
