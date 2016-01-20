@@ -1,6 +1,6 @@
 # Meteor-Robot
 
-#Commands
+## Commands
 
 * PLACE X,Y,F ==> (e.g. PLACE 0,1,NORTH)
 * MOVE
